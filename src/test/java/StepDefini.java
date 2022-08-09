@@ -28,6 +28,7 @@ public class StepDefini {
 
     @Given("que tengo una consulta fallida")
     public void queTengoUnaConsultaFallida() {
+        servicioJuego.consultoElServicio("id/tytle");
     }
 
     @When("se ingresa un id")
